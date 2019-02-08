@@ -32,12 +32,55 @@
         <scene sceneID="gfP-Wu-TZk">
             <objects>
                 <viewController id="2NO-jP-HiP" customClass="ChannelVC" customModule="smack" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="A4R-uI-EDh">
+                    <view key="view" contentMode="scaleToFill" id="A4R-uI-EDh" customClass="GradientView" customModule="smack" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSh-ik-7pS">
+                                <rect key="frame" x="25" y="40" width="67" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="bv1-C6-rhr"/>
+                                    <constraint firstAttribute="height" constant="31" id="wp7-MO-pHy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMy-et-ihs">
+                                <rect key="frame" x="313" y="99" width="22" height="22"/>
+                                <state key="normal" image="addChannelButton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yq-5h-w9n">
+                                <rect key="frame" x="164" y="617" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v8G-qB-omF">
+                                <rect key="frame" x="0.0" y="546" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="channels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sa-NO-fQb">
+                                <rect key="frame" x="25" y="98" width="79" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pSh-ik-7pS" firstAttribute="leading" secondItem="3pi-01-TQ2" secondAttribute="leading" constant="25" id="18H-1G-buh"/>
+                            <constraint firstItem="pSh-ik-7pS" firstAttribute="top" secondItem="3pi-01-TQ2" secondAttribute="top" constant="20" id="7Gk-IV-q0t"/>
+                            <constraint firstItem="vMy-et-ihs" firstAttribute="centerY" secondItem="8sa-NO-fQb" secondAttribute="centerY" id="8ow-ka-YPc"/>
+                            <constraint firstItem="3pi-01-TQ2" firstAttribute="trailing" secondItem="vMy-et-ihs" secondAttribute="trailing" constant="40" id="NhR-tP-jmy"/>
+                            <constraint firstItem="8sa-NO-fQb" firstAttribute="top" secondItem="pSh-ik-7pS" secondAttribute="bottom" constant="27" id="rkb-2S-kyR"/>
+                            <constraint firstItem="8sa-NO-fQb" firstAttribute="leading" secondItem="pSh-ik-7pS" secondAttribute="leading" id="sRj-c8-jZL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3pi-01-TQ2"/>
                     </view>
+                    <connections>
+                        <outlet property="addChannelBtn" destination="vMy-et-ihs" id="LU0-JG-qZY"/>
+                        <outlet property="channelBtnTrailingConstraint" destination="NhR-tP-jmy" id="RgZ-wq-oec"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jt9-uc-BE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,7 +94,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzu-em-3DC">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzu-em-3DC" customClass="GradientView" customModule="smack" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZl-pS-iAu">
@@ -65,11 +108,11 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="channelName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHC-Rh-WHJ">
-                                        <rect key="frame" x="134.5" y="73" width="106" height="19"/>
+                                        <rect key="frame" x="126" y="73" width="123.5" height="19"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="19" id="VdD-RD-gQ0"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -84,7 +127,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.23936604381655269" green="0.24107275621266835" blue="0.24619289340101524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qzu-em-3DC" firstAttribute="leading" secondItem="rIT-fP-Zdf" secondAttribute="leading" id="Pe2-fm-wKG"/>
                             <constraint firstItem="qzu-em-3DC" firstAttribute="top" secondItem="wgt-8R-TUg" secondAttribute="top" id="anK-w4-kSc"/>
@@ -102,6 +145,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="addChannelButton" width="22" height="22"/>
         <image name="smackBurger" width="40" height="40"/>
     </resources>
 </document>
