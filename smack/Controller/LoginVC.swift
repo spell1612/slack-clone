@@ -10,12 +10,16 @@ import UIKit
 
 class LoginVC: UIViewController {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        
     }
-    */
+    
+    @IBAction func loginCloseBtnPress(_ sender: Any) {
+        dismiss(animated: true, completion: nil) //dismiss moves back 1 view 
+    }
+    
+    
 
 }

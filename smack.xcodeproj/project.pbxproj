@@ -12,9 +12,9 @@
 		D054E13B220C3FF1003D26A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D054E13A220C3FF1003D26A2 /* Assets.xcassets */; };
 		D054E13E220C3FF1003D26A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D054E13C220C3FF1003D26A2 /* LaunchScreen.storyboard */; };
 		D0B57B512211485900D3C34D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B502211485900D3C34D /* SWRevealViewController.m */; };
-		D0B57B532211498000D3C34D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B522211498000D3C34D /* LoginVC.swift */; };
 		D0B57B57221156AE00D3C34D /* TextFieldAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */; };
 		D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */; };
+		D0B57B5D22115F5700D3C34D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5C22115F5700D3C34D /* LoginVC.swift */; };
 		D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */; };
 		D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */; };
 		D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA30220D9CD5008B7F2B /* GradientView.swift */; };
@@ -34,9 +34,9 @@
 		D0B57B4E2211485700D3C34D /* smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0B57B4F2211485800D3C34D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../Downloads/Smack Assets 2/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
 		D0B57B502211485900D3C34D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../Downloads/Smack Assets 2/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
-		D0B57B522211498000D3C34D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAttributes.swift; sourceTree = "<group>"; };
 		D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAttributes.swift; sourceTree = "<group>"; };
+		D0B57B5C22115F5700D3C34D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		D0E9BA30220D9CD5008B7F2B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 			children = (
 				D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */,
 				D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */,
-				D0B57B522211498000D3C34D /* LoginVC.swift */,
+				D0B57B5C22115F5700D3C34D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			files = (
 				D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */,
 				D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */,
-				D0B57B532211498000D3C34D /* LoginVC.swift in Sources */,
+				D0B57B5D22115F5700D3C34D /* LoginVC.swift in Sources */,
 				D054E134220C3FE7003D26A2 /* AppDelegate.swift in Sources */,
 				D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */,
 				D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */,
