@@ -20,6 +20,10 @@ class LoginVC: UIViewController {
         dismiss(animated: true, completion: nil) //dismiss moves back 1 view 
     }
     
+    @IBAction func onCreateOption(_ sender: Any) {
+        performSegue(withIdentifier: "toCreateAccount", sender: nil)
+    }
+    
     
 
 }

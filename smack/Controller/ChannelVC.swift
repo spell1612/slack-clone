@@ -14,6 +14,11 @@ class ChannelVC: UIViewController {
     @IBOutlet weak var channelBtnTrailingConstraint: NSLayoutConstraint!
     @IBOutlet weak var loginBtn: UIButton!
     
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){
+        
+    } //place this before viewdidload
+     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.revealViewController()?.rearViewRevealWidth=5*self.view.frame.size.width/6
@@ -24,5 +29,7 @@ class ChannelVC: UIViewController {
     
     @IBAction func loginOnTap(_ sender: Any) {
         performSegue(withIdentifier: "toLoginPage", sender: nil)
+        
+        
     }
 }

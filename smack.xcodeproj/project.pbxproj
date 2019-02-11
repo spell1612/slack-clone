@@ -15,6 +15,7 @@
 		D0B57B57221156AE00D3C34D /* TextFieldAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */; };
 		D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */; };
 		D0B57B5D22115F5700D3C34D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5C22115F5700D3C34D /* LoginVC.swift */; };
+		D0B57B5F2211727B00D3C34D /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5E2211727B00D3C34D /* CreateVC.swift */; };
 		D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */; };
 		D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */; };
 		D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA30220D9CD5008B7F2B /* GradientView.swift */; };
@@ -37,6 +38,7 @@
 		D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAttributes.swift; sourceTree = "<group>"; };
 		D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAttributes.swift; sourceTree = "<group>"; };
 		D0B57B5C22115F5700D3C34D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D0B57B5E2211727B00D3C34D /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
 		D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		D0E9BA30220D9CD5008B7F2B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */,
 				D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */,
 				D0B57B5C22115F5700D3C34D /* LoginVC.swift */,
+				D0B57B5E2211727B00D3C34D /* CreateVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */,
 				D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */,
 				D0B57B57221156AE00D3C34D /* TextFieldAttributes.swift in Sources */,
+				D0B57B5F2211727B00D3C34D /* CreateVC.swift in Sources */,
 				D0B57B512211485900D3C34D /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
