@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D054E134220C3FE7003D26A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D054E133220C3FE7003D26A2 /* AppDelegate.swift */; };
-		D054E136220C3FE7003D26A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D054E135220C3FE7003D26A2 /* ViewController.swift */; };
 		D054E139220C3FE7003D26A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D054E137220C3FE7003D26A2 /* Main.storyboard */; };
 		D054E13B220C3FF1003D26A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D054E13A220C3FF1003D26A2 /* Assets.xcassets */; };
 		D054E13E220C3FF1003D26A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D054E13C220C3FF1003D26A2 /* LaunchScreen.storyboard */; };
-		D0E9BA2B220D70E3008B7F2B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2A220D70E3008B7F2B /* SWRevealViewController.m */; };
+		D0B57B512211485900D3C34D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B502211485900D3C34D /* SWRevealViewController.m */; };
+		D0B57B532211498000D3C34D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B522211498000D3C34D /* LoginVC.swift */; };
+		D0B57B57221156AE00D3C34D /* TextFieldAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */; };
+		D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */; };
 		D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */; };
 		D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */; };
 		D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA30220D9CD5008B7F2B /* GradientView.swift */; };
@@ -25,14 +27,16 @@
 		88B86956270830FA60DCE592 /* Pods-smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-smack/Pods-smack.release.xcconfig"; sourceTree = "<group>"; };
 		D054E130220C3FE7003D26A2 /* smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D054E133220C3FE7003D26A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D054E135220C3FE7003D26A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D054E138220C3FE7003D26A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D054E13A220C3FF1003D26A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D054E13D220C3FF1003D26A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D054E13F220C3FF1003D26A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0E9BA28220D70E1008B7F2B /* smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-Bridging-Header.h"; sourceTree = "<group>"; };
-		D0E9BA29220D70E2008B7F2B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		D0E9BA2A220D70E3008B7F2B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D0B57B4E2211485700D3C34D /* smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-Bridging-Header.h"; sourceTree = "<group>"; };
+		D0B57B4F2211485800D3C34D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../Downloads/Smack Assets 2/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
+		D0B57B502211485900D3C34D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../Downloads/Smack Assets 2/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
+		D0B57B522211498000D3C34D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAttributes.swift; sourceTree = "<group>"; };
+		D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAttributes.swift; sourceTree = "<group>"; };
 		D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		D0E9BA30220D9CD5008B7F2B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -93,7 +97,6 @@
 				D0E9BA25220D7050008B7F2B /* View */,
 				D0E9BA26220D705C008B7F2B /* Controller */,
 				D054E133220C3FE7003D26A2 /* AppDelegate.swift */,
-				D054E135220C3FE7003D26A2 /* ViewController.swift */,
 				D054E137220C3FE7003D26A2 /* Main.storyboard */,
 				D054E13A220C3FF1003D26A2 /* Assets.xcassets */,
 				D054E13C220C3FF1003D26A2 /* LaunchScreen.storyboard */,
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				D0E9BA30220D9CD5008B7F2B /* GradientView.swift */,
+				D0B57B56221156AE00D3C34D /* TextFieldAttributes.swift */,
+				D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */,
 				D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */,
+				D0B57B522211498000D3C34D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,9 +135,9 @@
 		D0E9BA27220D7088008B7F2B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0E9BA29220D70E2008B7F2B /* SWRevealViewController.h */,
-				D0E9BA2A220D70E3008B7F2B /* SWRevealViewController.m */,
-				D0E9BA28220D70E1008B7F2B /* smack-Bridging-Header.h */,
+				D0B57B4F2211485800D3C34D /* SWRevealViewController.h */,
+				D0B57B502211485900D3C34D /* SWRevealViewController.m */,
+				D0B57B4E2211485700D3C34D /* smack-Bridging-Header.h */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -256,11 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */,
-				D054E136220C3FE7003D26A2 /* ViewController.swift in Sources */,
 				D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */,
+				D0B57B532211498000D3C34D /* LoginVC.swift in Sources */,
 				D054E134220C3FE7003D26A2 /* AppDelegate.swift in Sources */,
-				D0E9BA2B220D70E3008B7F2B /* SWRevealViewController.m in Sources */,
+				D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */,
 				D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */,
+				D0B57B57221156AE00D3C34D /* TextFieldAttributes.swift in Sources */,
+				D0B57B512211485900D3C34D /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
