@@ -16,6 +16,8 @@
 		D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */; };
 		D0B57B5D22115F5700D3C34D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5C22115F5700D3C34D /* LoginVC.swift */; };
 		D0B57B5F2211727B00D3C34D /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B5E2211727B00D3C34D /* CreateVC.swift */; };
+		D0B57B622211A0FD00D3C34D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B612211A0FD00D3C34D /* AuthService.swift */; };
+		D0B57B652211A37500D3C34D /* ENVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B57B642211A37500D3C34D /* ENVConstants.swift */; };
 		D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */; };
 		D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */; };
 		D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9BA30220D9CD5008B7F2B /* GradientView.swift */; };
@@ -39,6 +41,8 @@
 		D0B57B5822115A0F00D3C34D /* ButtonAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAttributes.swift; sourceTree = "<group>"; };
 		D0B57B5C22115F5700D3C34D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D0B57B5E2211727B00D3C34D /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		D0B57B612211A0FD00D3C34D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D0B57B642211A37500D3C34D /* ENVConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENVConstants.swift; sourceTree = "<group>"; };
 		D0E9BA2C220D7F4E008B7F2B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D0E9BA2E220D7F5B008B7F2B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		D0E9BA30220D9CD5008B7F2B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 		D054E132220C3FE7003D26A2 /* smack */ = {
 			isa = PBXGroup;
 			children = (
+				D0B57B632211A34D00D3C34D /* Utilities */,
+				D0B57B602211A0E400D3C34D /* Service */,
 				D0E9BA27220D7088008B7F2B /* Support Files */,
 				D0E9BA24220D7047008B7F2B /* Model */,
 				D0E9BA25220D7050008B7F2B /* View */,
@@ -105,6 +111,22 @@
 				D054E13F220C3FF1003D26A2 /* Info.plist */,
 			);
 			path = smack;
+			sourceTree = "<group>";
+		};
+		D0B57B602211A0E400D3C34D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D0B57B612211A0FD00D3C34D /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D0B57B632211A34D00D3C34D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D0B57B642211A37500D3C34D /* ENVConstants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		D0E9BA24220D7047008B7F2B /* Model */ = {
@@ -267,10 +289,12 @@
 				D0E9BA2D220D7F4E008B7F2B /* ChatVC.swift in Sources */,
 				D0E9BA31220D9CD5008B7F2B /* GradientView.swift in Sources */,
 				D0B57B5D22115F5700D3C34D /* LoginVC.swift in Sources */,
+				D0B57B652211A37500D3C34D /* ENVConstants.swift in Sources */,
 				D054E134220C3FE7003D26A2 /* AppDelegate.swift in Sources */,
 				D0B57B5922115A0F00D3C34D /* ButtonAttributes.swift in Sources */,
 				D0E9BA2F220D7F5B008B7F2B /* ChannelVC.swift in Sources */,
 				D0B57B57221156AE00D3C34D /* TextFieldAttributes.swift in Sources */,
+				D0B57B622211A0FD00D3C34D /* AuthService.swift in Sources */,
 				D0B57B5F2211727B00D3C34D /* CreateVC.swift in Sources */,
 				D0B57B512211485900D3C34D /* SWRevealViewController.m in Sources */,
 			);
