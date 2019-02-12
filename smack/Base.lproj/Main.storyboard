@@ -256,6 +256,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="createAccount:" destination="Jeu-Pp-tqX" eventType="touchUpInside" id="T9F-eU-xLs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0R-CL-dBw">
                                 <rect key="frame" x="132.5" y="347" width="110" height="135"/>
@@ -267,6 +270,7 @@
                                     <color key="titleColor" red="0.28235294119999998" green="0.31372549020000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="avatarPick:" destination="Jeu-Pp-tqX" eventType="touchUpInside" id="0xR-Nj-GX0"/>
                                     <action selector="onCreateOption:" destination="OS4-uE-a31" eventType="touchUpInside" id="TzV-5Z-5MC"/>
                                 </connections>
                             </button>
@@ -277,6 +281,7 @@
                                     <color key="titleColor" red="0.28235294119999998" green="0.31372549020000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bgColorPick:" destination="Jeu-Pp-tqX" eventType="touchUpInside" id="boF-vr-pO8"/>
                                     <action selector="onCreateOption:" destination="OS4-uE-a31" eventType="touchUpInside" id="boA-0t-aS8"/>
                                 </connections>
                             </button>
@@ -307,6 +312,10 @@
                         <viewLayoutGuide key="safeArea" id="21j-0p-K29"/>
                     </view>
                     <connections>
+                        <outlet property="emailField" destination="lJQ-iI-O9P" id="wkB-QR-i9b"/>
+                        <outlet property="passwordField" destination="bPv-rB-lFc" id="Sda-af-WUj"/>
+                        <outlet property="profileImage" destination="M2c-7O-y5h" id="X9J-t8-7cw"/>
+                        <outlet property="usernameField" destination="WeG-o0-68O" id="Jgy-uv-utY"/>
                         <segue destination="CbD-gh-Xnq" kind="unwind" identifier="unwindToChannelVC" unwindAction="prepareForUnwindWithSegue:" id="nEE-a9-Lbb"/>
                     </connections>
                 </viewController>
